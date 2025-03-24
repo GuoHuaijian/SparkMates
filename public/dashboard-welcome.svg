@@ -1,0 +1,55 @@
+<svg width="300" height="150" viewBox="0 0 300 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="150" cy="75" r="70" fill="white" fill-opacity="0.1"/>
+    <circle cx="150" cy="75" r="50" fill="white" fill-opacity="0.2"/>
+
+    <!-- 人物 -->
+    <circle cx="150" cy="45" r="20" fill="white"/>
+    <path d="M130 85C130 74 140 65 150 65C160 65 170 74 170 85V105H130V85Z" fill="white"/>
+
+    <!-- 想法泡泡 -->
+    <g transform="translate(190, 40)">
+        <circle cx="0" cy="0" r="15" fill="white"/>
+        <circle cx="-3" cy="-3" r="2" fill="#2563eb"/>
+        <circle cx="3" cy="-3" r="2" fill="#2563eb"/>
+        <path d="M-5 5 C-3 8, 3 8, 5 5" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+    </g>
+
+    <!-- 连接线 -->
+    <path d="M170 50 L185 40" stroke="white" stroke-width="2"/>
+
+    <!-- 灯泡 -->
+    <g transform="translate(110, 30)">
+        <circle cx="0" cy="0" r="12" fill="#FFC107"/>
+        <path d="M0 -8 L0 -14" stroke="white" stroke-width="2"/>
+        <path d="M6 -6 L10 -10" stroke="white" stroke-width="2"/>
+        <path d="M8 0 L14 0" stroke="white" stroke-width="2"/>
+        <path d="M6 6 L10 10" stroke="white" stroke-width="2"/>
+        <path d="M0 8 L0 14" stroke="white" stroke-width="2"/>
+        <path d="M-6 6 L-10 10" stroke="white" stroke-width="2"/>
+        <path d="M-8 0 L-14 0" stroke="white" stroke-width="2"/>
+        <path d="M-6 -6 L-10 -10" stroke="white" stroke-width="2"/>
+    </g>
+
+    <!-- 文档图标 -->
+    <g transform="translate(210, 90)">
+        <rect x="-10" y="-12" width="20" height="24" rx="2" fill="white"/>
+        <line x1="-5" y1="-6" x2="5" y2="-6" stroke="#2563eb" stroke-width="1.5"/>
+        <line x1="-5" y1="-2" x2="5" y2="-2" stroke="#2563eb" stroke-width="1.5"/>
+        <line x1="-5" y1="2" x2="5" y2="2" stroke="#2563eb" stroke-width="1.5"/>
+        <line x1="-5" y1="6" x2="2" y2="6" stroke="#2563eb" stroke-width="1.5"/>
+    </g>
+
+    <!-- 任务清单 -->
+    <g transform="translate(95, 90)">
+        <rect x="-12" y="-12" width="24" height="24" rx="2" fill="white"/>
+        <path d="M-6 -2 L-3 2 L6 -6" stroke="#10b981" stroke-width="1.5"/>
+        <line x1="-6" y1="6" x2="6" y2="6" stroke="#2563eb" stroke-width="1.5"/>
+    </g>
+
+    <!-- 装饰星星 -->
+    <path d="M50 30 L53 37 L60 38 L55 43 L56 50 L50 47 L44 50 L45 43 L40 38 L47 37 Z" fill="white" fill-opacity="0.6"/>
+    <path d="M230 120 L232 124 L236 125 L233 128 L234 132 L230 130 L226 132 L227 128 L224 125 L228 124 Z" fill="white"
+          fill-opacity="0.6"/>
+    <path d="M70 100 L72 104 L76 105 L73 108 L74 112 L70 110 L66 112 L67 108 L64 105 L68 104 Z" fill="white"
+          fill-opacity="0.6"/>
+</svg>
