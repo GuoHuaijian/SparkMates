@@ -15,16 +15,16 @@ SparkMates（创意火花伙伴）是一个独特而富有意义的名称：
 
 ### 在线预览
 
-- **预览地址**: [https://guohuaijian.github.io/app/sparkmates](https://guohuaijian.github.io/app/sparkmates)
+- **预览地址**: [https://guohuaijian.github.io/app/sparkmates/](https://guohuaijian.github.io/app/sparkmates/)
 - **测试账号**: test@example.com
 - **密码**: password
 
 ### 预览图片
 
-![首页预览](/public/hero-image.svg)
+![首页预览](https://raw.githubusercontent.com/GuoHuaijian/picture/main/data/20250324122319487.png)
 *主页中的创意火花动画效果，展示创意连接和协作的视觉体验*
 
-![仪表盘欢迎界面](/public/dashboard-welcome.svg)
+![仪表盘欢迎界面](https://raw.githubusercontent.com/GuoHuaijian/picture/main/data/20250324122439343.png)
 *用户仪表盘界面，提供个性化的项目和创意管理*
 
 #### 主要页面:
@@ -75,8 +75,8 @@ SparkMates（创意火花伙伴）是一个独特而富有意义的名称：
 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/creativity.git
-cd creativity
+git clone https://github.com/GuoHuaijian/SparkMates.git
+cd SparkMates
 ```
 
 2. 安装依赖
@@ -91,7 +91,7 @@ yarn install
 
 创建一个 `.env.local` 文件，参考 `.env.example`:
 
-```
+```tex
 NEXTAUTH_SECRET=your-nextauth-secret-key-here
 NEXTAUTH_URL=http://localhost:3000
 NEXT_PUBLIC_API_URL=http://localhost:3000
@@ -109,7 +109,7 @@ yarn dev
 
 ## 项目结构
 
-```
+```tex
 src/
   ├── app/                    # 应用页面
   │   ├── (auth)/             # 认证相关页面
@@ -209,10 +209,10 @@ interface Project {
 
 ## 团队成员
 
-- **项目负责人**: [张三](https://github.com/zhangsan) - 架构设计、技术选型
-- **前端开发**: [李四](https://github.com/lisi) - UI/UX设计与实现
-- **后端开发**: [王五](https://github.com/wangwu) - API设计与数据库设计
-- **产品设计**: [赵六](https://github.com/zhaoliu) - 产品需求与用户体验
+- **项目负责人**: [张三](https://github.com/zhangsanxxx) - 架构设计、技术选型
+- **前端开发**: [李四](https://github.com/lisixxx) - UI/UX设计与实现
+- **后端开发**: [王五](https://github.com/wangwuxxx) - API设计与数据库设计
+- **产品设计**: [赵六](https://github.com/zhaoliuxxx) - 产品需求与用户体验
 
 ## 致谢
 
@@ -222,6 +222,6 @@ interface Project {
 
 ## 联系方式
 
-项目维护者 - [@your-username](https://github.com/your-username)
+项目维护者 - [@Guo](https://github.com/GuoHuaijian)
 
-项目链接: [https://github.com/your-username/creativity](https://github.com/your-username/creativity)
+项目链接: [https://github.com/GuoHuaijian/SparkMates](https://github.com/GuoHuaijian/SparkMates)
